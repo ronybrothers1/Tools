@@ -67,7 +67,7 @@ export default function App() {
           </div>
           <div className="flex gap-1.5 flex-wrap">
             <span className="bg-surf-2 border border-border-subtle rounded-lg px-2.5 py-1 text-[10px] font-display font-semibold tracking-[0.08em] uppercase text-text-muted">v2.2</span>
-            <span className="bg-sky-400/5 border border-sky-400/20 rounded-lg px-2.5 py-1 text-[10px] font-display font-semibold tracking-[0.08em] uppercase text-sky-400">54 Kalkulator</span>
+            <span className="bg-sky-400/5 border border-sky-400/20 rounded-lg px-2.5 py-1 text-[10px] font-display font-semibold tracking-[0.08em] uppercase text-sky-400">{calculators.length} Kalkulator</span>
             <span className="bg-emerald-400/5 border border-emerald-400/20 rounded-lg px-2.5 py-1 text-[10px] font-display font-semibold tracking-[0.08em] uppercase text-emerald-400">+ Infografis APBDes</span>
             <span className="bg-surf-2 border border-border-subtle rounded-lg px-2.5 py-1 text-[10px] font-display font-semibold tracking-[0.08em] uppercase text-text-muted">Professional Grade</span>
           </div>

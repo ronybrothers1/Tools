@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { LayoutGrid, Layers, RefreshCw } from 'lucide-react';
+import { calculators, categories } from '../data';
 
 export function Header() {
   return (
@@ -28,11 +29,11 @@ export function Header() {
       >
         <span className="inline-flex items-center gap-2 font-display text-[11.5px] font-semibold tracking-[0.06em] text-sky-400 bg-sky-400/5 border border-sky-400/20 rounded-[10px] px-3.5 py-2 transition-colors">
           <LayoutGrid className="w-[13px] h-[13px]" />
-          54 Kalkulator
+          {calculators.length} Kalkulator
         </span>
         <span className="inline-flex items-center gap-2 font-display text-[11.5px] font-semibold tracking-[0.06em] text-text-sub bg-surf-2 border border-border-subtle rounded-[10px] px-3.5 py-2 transition-colors">
           <Layers className="w-[13px] h-[13px]" />
-          7 Kategori
+          {categories.length} Kategori
         </span>
         <span className="inline-flex items-center gap-2 font-display text-[11.5px] font-semibold tracking-[0.06em] text-text-sub bg-surf-2 border border-border-subtle rounded-[10px] px-3.5 py-2 transition-colors">
           <RefreshCw className="w-[13px] h-[13px]" />
