@@ -5,7 +5,7 @@ import {
   Waves, Settings, Shield, Zap, Sun, ArrowRightLeft, Calculator,
   HeartPulse, Activity, Baby,
   Receipt, FileText, Type, Landmark, Users, PieChart,
-  Sprout, Key,
+  Sprout, Key, IdCard,
   LucideIcon
 } from 'lucide-react';
 
@@ -90,6 +90,7 @@ export const calculators: CalculatorItem[] = [
   // Pertanian & Utilitas
   { id: 'pupuk', categoryId: 'pertanian', name: 'Pupuk', url: 'https://www.rony.biz.id/pupuk', icon: Sprout, colorTheme: 'lime', searchTerms: 'pupuk pertanian tanaman' },
   { id: 'password-generator', categoryId: 'pertanian', name: 'Password Generator', url: 'https://www.rony.biz.id/password-generator', icon: Key, colorTheme: 'amber', searchTerms: 'password generator keamanan' },
+  { id: 'hitung-umur-nik', categoryId: 'pertanian', name: 'Hitung Umur dari NIK', url: 'https://www.rony.biz.id/hitung-umur-dari-nik', icon: IdCard, colorTheme: 'cyan', searchTerms: 'hitung umur usia dari nik ktp' },
 ];
 
 export const colorMap: Record<ColorTheme, { bg: string, text: string, border: string, hoverBorder: string, hoverShadow: string, hoverBg: string }> = {
